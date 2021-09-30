@@ -1,9 +1,15 @@
 .preview {
   background: rgb(243, 242, 242);
-  font-size: 0;
   flex: 1;
+  padding: 80px 0;
+}
+
+.preview__box {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 30px;
 }
 
 .preview__card {
-  width: 33.3333%;
+  flex-basis: 350px;
 }
